@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  prometheus-bot:
+    build: .
+    expose: 
+      - 9087
+    ports:
+      - 9087:9087
+    restart: always
+    volumes: 
+      - ${BASE_CONFIG_PATH}/config.yaml:/config.yaml

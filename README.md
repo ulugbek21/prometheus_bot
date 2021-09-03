@@ -1,4 +1,4 @@
-# prometheus_bot
+# Customized prometheus_bot from [this repository](https://github.com/inCaller/prometheus_bot)
 
 This bot is designed to alert messages from [alertmanager](https://github.com/prometheus/alertmanager).
 
